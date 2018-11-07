@@ -1,4 +1,5 @@
 # Processing
-This is my Processing (3.4) repository, available to anyone for help, or inspiration.
+
+Collisions, for more info see pull request comments.
 
 Special thanks to Mrs Morell (Teacher), Ben Fry and Casey Reas (creators of Processing).
