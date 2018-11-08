@@ -93,21 +93,22 @@ boolean testForColor(color c) {
       //Roll left
       x -= extraWidth;
       direction = "left";
-      
+    //Default
     } else {
-      
+      //If direction is left, roll left
       if (direction == "left") {
         x -= extraWidth;
-        
+        //If direction is right, roll right
       } else if (direction == "right") {
         x += extraWidth;
-        
+        //Default; direction is undefined
       } else {
         x += extraWidth;
         direction = "right";
         
       }
     }
+    //DEBUG
     //print(direction);
     
     //Conditions are met, return true
