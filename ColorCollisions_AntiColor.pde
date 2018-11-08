@@ -40,7 +40,7 @@ void fall() {
   if (!testForColor(collisionColor)) {
     y+= extraWidth;
     //Reset ellipse coordinates
-    if (y > height) { y=0;x=random(0,width);}
+    if (y >= height-(D/2)-extraWidth) { y=0;x=random(0,width);}
   }
 }
 
